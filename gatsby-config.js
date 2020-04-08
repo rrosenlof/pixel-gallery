@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Pixel Art Gallery`,
+    title: `Pixel Art Gallery 👾`,
     description: `A collection of pixelated artwork, for a class project.`,
     author: `@gatsbyjs`,
   },

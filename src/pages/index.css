@@ -11,6 +11,19 @@
 }
 
 .container > div {
-  margin: 0 10px;
-  padding: 20px;
+  margin: 0 .5rem;
+  padding: 1rem;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  margin-bottom: 0.2rem;
+}
+
+hr{
+  margin-bottom: 0.2rem;
 }
