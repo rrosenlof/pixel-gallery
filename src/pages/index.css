@@ -1,0 +1,16 @@
+.one-image {
+  flex: 0 0 55%;
+}
+
+.two-images {
+  flex: 1;
+}
+
+.container {
+  display: flex;
+}
+
+.container > div {
+  margin: 0 10px;
+  padding: 20px;
+}
