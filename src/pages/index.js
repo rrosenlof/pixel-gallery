@@ -16,13 +16,16 @@ const IndexPage = () => (
     <p>Manet</p>
     <p>Van Gogh</p>
     <p>Vermeer</p>
-    <h1>Late-18th/Early 20th Century Art</h1>
+    <h1>Late-19th/Early-20th Century Art</h1>
     <p>Cezanne</p>
     <p>Matisse</p>
     <p>Starry night</p>
+    <h1>Modern Art</h1>
     <p>Mondrian</p>
+    <p>Pollock</p>
     <h1>Sculpture Garden</h1>
     <p>Duane Hanson</p>
+    <p>Rodin</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
