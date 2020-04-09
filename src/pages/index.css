@@ -1,23 +1,29 @@
 .one-image {
-  flex: 0 0 55%;
+  /* padding: .5rem; */
+  width: 50%;
+  margin: .5rem;
+  /* flex: 1; */
 }
 
 .two-images {
-  flex: 1;
+  /* padding: .5rem; */
+  margin: .5rem;  
+  width:45%;
+  /* flex: 1; */
 }
 
 .container {
+  /* border: 1px solid silver; */
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
-}
-
-.container > div {
-  margin: 0 .5rem;
-  padding: 1rem;
-}
-
-.main-content {
-  display: flex;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  max-width: 60rem;
 }
 
 h2 {
@@ -26,4 +32,9 @@ h2 {
 
 hr{
   margin-bottom: 0.2rem;
+}
+
+.artist-name {
+  font-size: .75rem;
+  margin-bottom: -.5rem;
 }

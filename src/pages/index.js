@@ -27,13 +27,16 @@ const IndexPage = () => (
       <div class="container">
         <div class="two-images">
           <img src={Titian} alt="Bacchues and Ariadne" />
-          <p>Bacchus and Ariadne, </p>
+          <p class="artist-name">Titian</p>
+          <p>Bacchus and Ariadne, 1523</p>
           <img src={Goya} alt="Third of May" />
-          <p>Third of May, </p>
+          <p class="artist-name">Francisco Goya</p>
+          <p>Third of May 1808, 1814</p>
         </div>
         <div class="one-image">
           <img src={Velazquez} alt="Las Meninas" />
-          <p>Las Meninas, </p>
+          <p class="artist-name">Diego Velasquez</p>
+          <p>Las Meninas, 1656</p>
         </div>
       </div>
   
@@ -42,13 +45,16 @@ const IndexPage = () => (
       <div class="container">
         <div class="two-images">
           <img src={Manet} alt="A Bar at the Folies-Bergère" />
-          <p>A Bar at the Folies-Bergère, </p>
+          <p class="artist-name">Edouard Manet</p>
+          <p>A Bar at the Folies-Bergère, 1882</p>
           <img src={Vermeer} alt="The Geographer" />
-          <p>The Geographer, </p>
+          <p class="artist-name">Johannes Vermeer</p>
+          <p>The Geographer, 1669</p>
         </div>
         <div class="one-image">
           <img src={VanGogh2} alt="Self Portrait with Bandaged Ear" />
-          <p>Self Portrait with Bandaged Ear, </p>
+          <p class="artist-name">Vincent Van Gogh</p>
+          <p>Self Portrait with Bandaged Ear, 1889</p>
         </div>
       </div>
   
@@ -57,13 +63,16 @@ const IndexPage = () => (
       <div class="container">
         <div class="one-image">
           <img src={Matisse} alt="Still life in a red room" />
-          <p>Still life in a red room, </p>
+          <p class="artist-name">Henri Matisse</p>
+          <p>Still life in a red room, 1991</p>
         </div>
         <div class="two-images">
           <img src={Cezanne} alt="View of Mont-Saint-Victoire" />
-          <p>View of Mont-Saint-Victoire", </p>
+          <p class="artist-name">Paul Cézanne</p>
+          <p>View of Mont-Saint-Victoire, 1904</p>
           <img src={VanGogh1} alt="Starry Night" />
-          <p>Starry Night, </p>
+          <p class="artist-name">Vincent Van Gogh</p>
+          <p>Starry Night, 1889</p>
         </div>
       </div>
   
@@ -72,10 +81,12 @@ const IndexPage = () => (
       <div class="container">
         <div class="two-images">
           <img src={Mondrian} alt="Tableau 1" />
-          <p>Tableau 1, </p>
+          <p class="artist-name">Piet Mondrian</p>
+          <p>Tableau 1, 1921</p>
         </div>
         <div class="one-image">
           <img src={Pollock} alt="No. 5, 1948" />
+          <p class="artist-name">Jackson Pollock</p>
           <p>No. 5, 1948</p>
         </div>
       </div>
@@ -85,11 +96,13 @@ const IndexPage = () => (
       <div class="container">
         <div class="one-image">
           <img src={Hanson} alt="Supermarket Shopper" />
-          <p>Supermarket Shopper, </p>
+          <p class="artist-name">Duane Hanson</p>
+          <p>Supermarket Shopper, 1970</p>
         </div>
         <div class="two-images">
           <img src={Rodin} alt="The Thinker" />
-          <p>The Thinker, </p>
+          <p class="artist-name">Auguste Rodin</p>
+          <p>The Thinker, 1880</p>
         </div>
       </div>
 
