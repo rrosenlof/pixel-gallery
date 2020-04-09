@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Titian from "../images/bacchus_ariadne.png"
-import Cezanne from "../images/cezanne.png"
+import Picasso from "../images/three_musicians.png"
 import Hanson from "../images/duane_hanson.png"
 import Velazquez from "../images/las_meninas.png"
 import Manet from "../images/manet.jpg"
@@ -67,9 +67,9 @@ const IndexPage = () => (
           <p>Still life in a red room, 1991</p>
         </div>
         <div class="two-images">
-          <img src={Cezanne} alt="View of Mont-Saint-Victoire" />
-          <p class="artist-name">Paul Cézanne</p>
-          <p>View of Mont-Saint-Victoire, 1904</p>
+          <img src={Picasso} alt="View of Mont-Saint-Victoire" />
+          <p class="artist-name">Pablo Picasso</p>
+          <p>Three Musicians, 1921</p>
           <img src={VanGogh1} alt="Starry Night" />
           <p class="artist-name">Vincent Van Gogh</p>
           <p>Starry Night, 1889</p>
@@ -106,7 +106,7 @@ const IndexPage = () => (
         </div>
       </div>
 
-    <Link to="/about/">Gift Shop</Link>
+    <Link to="/about/">Exit Through the Gift Shop...</Link>
     <footer>
       <br></br>
     </footer>
