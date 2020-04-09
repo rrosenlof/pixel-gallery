@@ -8,9 +8,14 @@ import "./about.css"
 const SecondPage = () => (
   <Layout>
     <h2>About</h2>
-    <p style={{
-          fontFamily: 'Roboto Mono'
-        }}>This page was made for a Humanities 202 class at Brigham Young University, winter 2020.</p>
+    <p>This page was made for a Humanities 202 class at Brigham Young University, winter 2020.</p>
+    <p>I was inspired to make this by a post-it note mosaic of Starry Night in the BYU library, so I made a program for porgramatically creating pixelated images. My thoughts were that
+      this could be used to easily map out similar creations. I was also inspired by art work by street artist <a href="https://www.instagram.com/invaderwashere/">Space Invader</a>, the design agency <a href="https://www.instagram.com/eboyarts/">eBoy</a>,
+        and of course, graphics from video games and early computer programs.
+    </p><p>
+      My pixelating program worked best with images with higher contrast, brighter colors, and fewer details. Most of the input images' color and contrast were changed by the program
+      to create a better palette. The pixelating program was made with Python, using the PIL library, and this site was made with <a href="https://www.gatsbyjs.org/">Gatsby</a>.
+    </p> 
     <h3>Sources</h3>
     <ul>
       <li>
