@@ -37,7 +37,7 @@ const SecondPage = () => (
         <a href="https://courtauld.ac.uk/gallery/collection/impressionism-post-impressionism/van-gogh-self-portrait">Vincent Van Gogh - Self Portrait with Bandaged Ear, 1889</a>
       </li>
       <li>
-        <a href="https://getcustomart.com/products/henri-matisse-red-interior-still-life-on-a-blue-table">Henri Matisse - Still life in a red room, 1911</a>
+        <a href="https://www.crayola.com/lesson-plans/pointillism-lesson-plan/">Georges Seurat - Parade de cirque (Detail), 1887</a>
       </li>
       <li>
         <a href="https://www.pablopicasso.org/three-musicians.jsp">Pablo Picasso - Three Musicians, 1921</a>

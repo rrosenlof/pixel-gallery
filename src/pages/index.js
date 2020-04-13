@@ -8,7 +8,7 @@ import Picasso from "../images/three_musicians.png"
 import Hanson from "../images/duane_hanson.png"
 import Velazquez from "../images/las_meninas.png"
 import Manet from "../images/manet.jpg"
-import Matisse from "../images/matisse_room.png"
+// import Matisse from "../images/matisse_room.png"
 import Mondrian from "../images/mondrian.png"
 import Pollock from "../images/pollock.png"
 import Rodin from "../images/rodin.png"
@@ -16,6 +16,7 @@ import VanGogh1 from "../images/starry_night.png"
 import VanGogh2 from "../images/van_gogh.jpg"
 import Goya from "../images/third_of_may.png"
 import Vermeer from "../images/vermeer.jpg"
+import Seurat from "../images/seurat.png"
 
 import "./index.css"
 
@@ -61,10 +62,15 @@ const IndexPage = () => (
       <h2>Late-19th/Early-20th Century Art</h2>
       <hr/>
       <div class="container">
-        <div class="one-image">
+        {/* <div class="one-image">
           <img src={Matisse} alt="Still life in a red room" />
           <p class="artist-name">Henri Matisse</p>
           <p>Still life in a red room, 1991</p>
+        </div> */}
+        <div class="one-image">
+          <img src={Seurat} alt="La Parade (Detail)" />
+          <p class="artist-name">Georges Seurat</p>
+          <p>Parade de Cirque (Detail), 1887</p>
         </div>
         <div class="two-images">
           <img src={Picasso} alt="View of Mont-Saint-Victoire" />
