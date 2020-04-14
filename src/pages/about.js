@@ -9,9 +9,9 @@ const SecondPage = () => (
   <Layout>
     <h2>About</h2>
     <p>This page was made for a Humanities 202 class at Brigham Young University, winter 2020.</p>
-    <p>I was inspired to make this by a post-it note mosaic of Starry Night in the BYU library. I made a program for porgramatically creating pixelated images. Of course tools
-      like Photoshop can perform these functions easily, but I wanted to try a more programatic approach. My thoughts were that
-      this could be used to easily map out similar creations. I was also inspired by art work by street artist <a href="https://www.instagram.com/invaderwashere/">Space Invader</a>, the design agency <a href="https://www.instagram.com/eboyarts/">eBoy</a>,
+    <p>I was inspired to make this by a post-it note mosaic of Starry Night in the BYU library. I made a program for creating pixelated images. 
+      Of course tools like Photoshop can perform these functions easily, but I wanted to try a more programmatic approach. My thoughts 
+      were that this could be used to easily map out similar creations. I was also inspired by art work by street artist <a href="https://www.instagram.com/invaderwashere/">Space Invader</a>, the design agency <a href="https://www.instagram.com/eboyarts/">eBoy</a>,
       and of course, graphics from video games and early computer programs.
     </p>
     <p>
@@ -26,9 +26,11 @@ const SecondPage = () => (
       technology today, images on our screens don't have these same visible pixels, but for people my age, images like these are often nostalgic of childhood.
     </p>
     <p>
-      My pixelating program worked best with images with higher contrast, brighter colors, and fewer details. Most of the input images' color and contrast were altered
-      by the program to create a better palette. Some images were edited slightly in Photoshop, but most of the final images were simply made by the program's inputs.
-      The pixelating program was made with Python, using the PIL library, and this site was made with <a href="https://www.gatsbyjs.org/">Gatsby</a>.
+      My pixelating program worked best with images with higher contrast, brighter colors, and fewer details. Most of the input images' color and 
+      contrast were altered by the program to create a better palette. I got a palette of the eight most common colors in the input image. The program
+      also allows for custom palette inputs too, but none were used here, to keep the colors close to the originals. Some images were edited 
+      slightly in Photoshop, but most of the final images were simply made by the program's inputs. The pixelating program was made with Python, 
+      using the PIL library, and this site was made with <a href="https://www.gatsbyjs.org/">Gatsby</a>.
     </p> 
     <h3>Sources</h3>
     <ul>
