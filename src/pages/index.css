@@ -1,6 +1,6 @@
 .one-image {
   /* padding: .5rem; */
-  width: 50%;
+  width: 45%;
   margin: .5rem;
   /* flex: 1; */
 }
@@ -8,7 +8,7 @@
 .two-images {
   /* padding: .5rem; */
   margin: .5rem;  
-  width:45%;
+  width:40%;
   /* flex: 1; */
 }
 
