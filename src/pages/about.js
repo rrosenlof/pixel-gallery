@@ -12,9 +12,22 @@ const SecondPage = () => (
     <p>I was inspired to make this by a post-it note mosaic of Starry Night in the BYU library, so I made a program for porgramatically creating pixelated images. My thoughts were that
       this could be used to easily map out similar creations. I was also inspired by art work by street artist <a href="https://www.instagram.com/invaderwashere/">Space Invader</a>, the design agency <a href="https://www.instagram.com/eboyarts/">eBoy</a>,
         and of course, graphics from video games and early computer programs.
-    </p><p>
+    </p>
+    <p>
+      Using visible pixels to create images like these is reminiscent of Post-Impressionists who experimented with color in ways
+      that other artists had not done before. Artists like Georges Seurat painted with <i>pointilles</i>, indivdual points of color that
+      combine to form the larger image. Others like Van Gogh and Cezanne painted with thick, contrasting brushstrokes to form their
+      scenes. 
+    </p>
+    <p>
+      When viewed close up, the pixels, like Seurat's <i>pointilles</i> or Van Gogh's brushwork, are a mess of colors. But when viewed as a whole, figures 
+      start to form. It's fun to see the optical illusions that collections of pixels can make in forming a larger image. Thanks to improved graphics
+      technology today, images on our screens don't have these same visible pixels, but for people my age, images like these are often nostalgic of childhood.
+    </p>
+    <p>
       My pixelating program worked best with images with higher contrast, brighter colors, and fewer details. Most of the input images' color and contrast were changed by the program
-      to create a better palette. The pixelating program was made with Python, using the PIL library, and this site was made with <a href="https://www.gatsbyjs.org/">Gatsby</a>.
+      to create a better palette. Some images were edited slightly in Photoshop, but most of the final images were just made by the program's inputs.
+      The pixelating program was made with Python, using the PIL library, and this site was made with <a href="https://www.gatsbyjs.org/">Gatsby</a>.
     </p> 
     <h3>Sources</h3>
     <ul>
