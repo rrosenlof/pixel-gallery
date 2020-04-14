@@ -16,7 +16,7 @@ const SecondPage = () => (
     </p>
     <p>
       Using visible pixels to create images like these is reminiscent of Post-Impressionists who experimented with color in ways
-      that other artists had not done before. Artists like Georges Seurat painted with <i>pointilles</i>, indivdual points of color that
+      that other artists had not done before. Artists like Georges Seurat painted with <i>pointilles</i>, individual points of color that
       combine to form the larger image. Others like Van Gogh and Cezanne painted with thick, contrasting brushstrokes to form their
       scenes. 
     </p>
